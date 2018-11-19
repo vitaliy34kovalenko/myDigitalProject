@@ -13,7 +13,7 @@
             cssEase: 'linear',
             // autoplay: true,
             autoplaySpeed: 4000,
-            adaptiveHeight: true,
+            adaptiveHeight: false,
 		});
 
 		$('.service').slick({
@@ -57,7 +57,7 @@
 		  	infinite: true,
 		  	arrows: false,
           	dots: true,
-          	dotsClass: 'slick-dots  slider__dots--features',
+          	dotsClass: 'slick-dots slider__dots--features slider__dots--team',
 		  	slidesToShow: 4,
 		  	slidesToScroll: 3,
 		  	infinite: true,
