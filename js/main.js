@@ -17,41 +17,25 @@
 		});
 
 		$('.service').slick({
+			infinite: true,
             arrows: false,
             dots: true,
             dotsClass: 'slick-dots  slider__dots--features',
-            infinite: true,
   			slidesToShow: 3,
   			slidesToScroll: 2,
-            infinite: true,
             speed: 1000,
             fade: false,
             cssEase: 'linear',
             // autoplay: true,
             autoplaySpeed: 4000,
             adaptiveHeight: true,
-             responsive: [
+            responsive: [
 		    {
-		      breakpoint: 900,
+		      breakpoint: 1170,
 		      settings: "unslick"
 		    }
 		  	]
 		});
-
-		// $(".service").slick({
-		//   dots: true,
-		//   infinite: true,
-		//   dotsClass: 'slick-dots  slider__dots--features',
-		//   speed: 300,
-		//   slidesToShow: 3,
-		//   slidesToScroll: 2,
-		//   responsive: [
-		//     {
-		//       breakpoint: 1024,
-		//       settings: "unslick"
-		//     }
-		//   ]
-		// });
 
 		$('.team__associate').slick({
 		  	infinite: true,
@@ -60,7 +44,6 @@
           	dotsClass: 'slick-dots slider__dots--features slider__dots--team',
 		  	slidesToShow: 4,
 		  	slidesToScroll: 3,
-		  	infinite: true,
             speed: 1000,
             fade: false,
             cssEase: 'linear',
